@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 from tkinter import *
 from tkinter import messagebox as mb
 import json
@@ -87,11 +81,3 @@ class Quiz:
 
 quiz=Quiz()
 root.mainloop()
-
-
-
-# In[ ]:
-
-
-
-
