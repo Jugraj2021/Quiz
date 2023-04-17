@@ -23,7 +23,7 @@ class Quiz:
         self.correct = 0
 
     def question(self, qn):
-        t = Label(root, text="Ved Prakash Chaubey(63892)Quiz in Python Programming", width=50, bg="blue", fg="white", font=("times", 20, "bold"))
+        t = Label(root, text="Quiz in Python Programming", width=50, bg="blue", fg="white", font=("times", 20, "bold"))
         t.place(x=0, y=2)
         qn = Label(root, text=q[qn], width=60, font=("times", 16, "bold"), anchor="w")
         qn.place(x=70, y=100)
